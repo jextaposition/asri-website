@@ -1,38 +1,217 @@
+@font-face {
+  font-family: 'Apoc';
+  src: local('Apoc'), url(./assets/fonts/Apoc.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Buda-Light';
+  src: local('Buda-Light'),
+    url(./assets/fonts/Buda-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Bw Gradual DEMO ExtraBold';
+  src: local('Bw Gradual DEMO ExtraBold'),
+    url('./assets/fonts/Bw Gradual DEMO ExtraBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Carlton Std Regular';
+  src: local('Carlton Std Regular'),
+    url(./assets/fonts/Carlton\ Std\ Regular.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Cicle_Fina_Italic';
+  src: local('Cicle_Fina_Italic'),
+    url(./assets/fonts/Cicle_Fina_Italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cicle_Fina';
+  src: local('Cicle_Fina'),
+    url(./assets/fonts/Cicle_Fina.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cicle_Gordita_Italic';
+  src: local('Cicle_Gordita_Italic'),
+    url(./assets/fonts/Cicle_Gordita_Italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cicle_Gordita';
+  src: local('Cicle_Gordita'),
+    url(./assets/fonts/Cicle_Gordita.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cicle_Semi_Italic';
+  src: local('Cicle_Semi_Italic'),
+    url(./assets/fonts/Cicle_Semi_Italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cicle_Semi';
+  src: local('Cicle_Semi'),
+    url(./assets/fonts/Cicle_Semi.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cosi Azure';
+  src: local('Cosi Azure'),
+    url(./assets/fonts/Cosi\ Azure.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Dekar Light';
+  src: local('Dekar Light'),
+    url(./assets/fonts/Dekar\ Light.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Dekar';
+  src: local('Dekar'), url(./assets/fonts/Dekar.otf) format('opentype');
+}
+@font-face {
+  font-family: 'NeueMontreal-Bold';
+  src: local('NeueMontreal-Bold'),
+    url(./assets/fonts/NeueMontreal-Bold.otf) format('opentype');
+}
+@font-face {
+  font-family: 'NeueMontreal-BoldItalic';
+  src: local('NeueMontreal-BoldItalic'),
+    url(./assets/fonts/NeueMontreal-BoldItalic.otf) format('opentype');
+}
+@font-face {
+  font-family: 'NeueMontreal-Italic';
+  src: local('NeueMontreal-Italic'),
+    url(./assets/fonts/NeueMontreal-Italic.otf) format('opentype');
+}
+@font-face {
+  font-family: 'NeueMontreal-Light';
+  src: local('NeueMontreal-Light'),
+    url(./assets/fonts/NeueMontreal-Light.otf) format('opentype');
+}
+@font-face {
+  font-family: 'NeueMontreal-LightItalic';
+  src: local('NeueMontreal-LightItalic'),
+    url(./assets/fonts/NeueMontreal-LightItalic.otf) format('opentype');
+}
+@font-face {
+  font-family: 'NeueMontreal-Medium';
+  src: local('NeueMontreal-Medium'),
+    url(./assets/fonts/NeueMontreal-Medium.otf) format('opentype');
+}
+@font-face {
+  font-family: 'NeueMontreal-MediumItalic';
+  src: local('NeueMontreal-MediumItalic'),
+    url(./assets/fonts/NeueMontreal-MediumItalic.otf) format('opentype');
+}
+@font-face {
+  font-family: 'NeueMontreal-Regular';
+  src: local('NeueMontreal-Regular'),
+    url(./assets/fonts/NeueMontreal-Regular.otf) format('opentype');
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  /* glowing moon yellow */
+  color: #fefcd7;
+  font-size: 200px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1:hover {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fffdd0;
+}
+/* FONT OPTIONS */
+.apoc {
+  font-family: 'Apoc';
+  font-size: 50px;
+}
+
+.buda-light {
+  font-family: 'Buda-Light';
+  font-size: 50px;
+}
+
+.bw {
+  font-family: 'Bw Gradual DEMO ExtraBold';
+  font-size: 50px;
+}
+
+.carlton {
+  font-family: 'Carlton Std Regular';
+  font-size: 50px;
+}
+
+.cicle-italic {
+  font-family: 'Cicle_Fina_Italic';
+  font-size: 50px;
+}
+
+.cicle-fina {
+  font-family: 'Cicle_Fina';
+  font-size: 50px;
+}
+
+.cicle-gordita-italic {
+  font-family: 'Cicle_Gordita_Italic';
+  font-size: 50px;
+}
+
+.cicle-gordita {
+  font-family: 'Cicle_Gordita';
+  font-size: 50px;
+}
+.cicle-semi-italic {
+  font-family: 'Cicle_Semi_Italic';
+  font-size: 50px;
+}
+
+.cicle-semi {
+  font-family: 'Cicle_Semi';
+  font-size: 50px;
+}
+
+.cosi {
+  font-family: 'Cosi Azure';
+  font-size: 50px;
+}
+
+.dekar-light {
+  font-family: 'Dekar Light';
+  font-size: 50px;
+}
+
+.dekar {
+  font-family: 'Dekar';
+  font-size: 50px;
+}
+
+.neuemontreal-bold {
+  font-family: 'NeueMontreal-Bold';
+  font-size: 50px;
+}
+.neuemontreal-bolditalic {
+  font-family: 'NeueMontreal-BoldItalic';
+  font-size: 50px;
+}
+.neuemontreal-italic {
+  font-family: 'NeueMontreal-Italic';
+  font-size: 50px;
+}
+.neuemontreal-light {
+  font-family: 'NeueMontreal-Light';
+  font-size: 50px;
+}
+.neuemontreal-lightitalic {
+  font-family: 'NeueMontreal-LightItalic';
+  font-size: 50px;
+}
+.neuemontreal-medium {
+  font-family: 'NeueMontreal-Medium';
+  font-size: 50px;
+}
+.neuemontreal-mediumitalic {
+  font-family: 'NeueMontreal-MediumItalic';
+  font-size: 50px;
+}
+.neuemontreal-regular {
+  font-family: 'NeueMontreal-Regular';
+  font-size: 50px;
 }
